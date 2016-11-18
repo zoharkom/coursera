@@ -132,8 +132,54 @@
 
 * {
   box-sizing: border-box;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 1em;
 }
 
-.menu-section,{
-  background-color: gray;
+h1{
+  text-align: center;
+  font-size: 1.75em;
 }
+
+.section-box{
+  background-color: white;
+  border: none;
+}
+
+.menu-section{
+  background-color: gray;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid black;
+  text-align: left;
+}
+
+.menu-section-header{
+  border: 1px solid black;
+  float: right;
+  padding: 5px;
+  margin-right: -20.8px;
+  margin-top: -20.8px;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.menu-section-text{
+  text-align: left;
+  clear: right; 
+}
+
+#chicken{
+  background-color: #FE7C78;
+}
+
+#beef{
+  background-color: #D62620;
+}
+
+#sushi{
+  background-color: #E3E772;
+}
+
+
+
